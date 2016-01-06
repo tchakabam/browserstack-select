@@ -16,6 +16,11 @@ Source data can be retrieved from BrowserStack API with a command like:
 
 `curl -u "USERNAME:PASSWORD" https://www.browserstack.com/automate/browsers.json > browserstack.options.json`
 
+## Wishlist
+  
+  * Get source data directly from BrowserStack REST API (take credentials as input)
+  * Directly write output into browserstack.json `browsers` field
+
 ## Example
 
 We want a config for Chrome 47.0 on all Windows versions.
@@ -49,7 +54,4 @@ $ node browserstack-select.js Windows any chrome 47.0 any
     browser: 'chrome' } ]
   ```
   
-## Wishlist
-  
-  * Get source data directly from BrowserStack REST API (take credentials as input)
-  * Directly write output into browserstack.json `browsers` field
+
