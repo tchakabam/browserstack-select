@@ -10,8 +10,6 @@ Put `any` where you want all possibilies.
 
 **Expects a file `browserstack.options.json` containing source data in working directory.**
 
-## Get input data
-
 Source data can be retrieved from BrowserStack API with a command like:
 
 `curl -u "USERNAME:PASSWORD" https://www.browserstack.com/automate/browsers.json > browserstack.options.json`
