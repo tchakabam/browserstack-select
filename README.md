@@ -49,7 +49,7 @@ $ node browserstack-select.js Windows any chrome 47.0 any
     browser: 'chrome' } ]
   ```
   
-  ## Wishlist
+## Wishlist
   
   * Get source data directly from BrowserStack REST API (take credentials as input)
   * Directly write output into browserstack.json `browsers` field
