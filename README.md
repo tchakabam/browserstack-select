@@ -13,6 +13,8 @@ Source data can be retrieved from BrowserStack API with a command like
 
 ## EXAMPLE
 
+We want a config for Chrome 47.0 on all Windows versions.
+
 ```
 $ node browserstack-select.js Windows any chrome 47.0 any
 [ { os_version: 'XP',
