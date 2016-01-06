@@ -1,0 +1,27 @@
+{
+  "name": "browserstack-select",
+  "version": "1.0.0",
+  "description": "Filters BrowserStack config flat hash and outputs a JSON array fit to be used with runner config.",
+  "main": "browserstack-select.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchakabam/browserstack-select.git"
+  },
+  "keywords": [
+    "BrowserStack",
+    "Automate",
+    "REST",
+    "API",
+    "JSON",
+    "filter"
+  ],
+  "author": "Stephan Hesse <tchakabam@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tchakabam/browserstack-select/issues"
+  },
+  "homepage": "https://github.com/tchakabam/browserstack-select#readme"
+}
