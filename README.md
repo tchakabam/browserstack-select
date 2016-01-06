@@ -1,6 +1,6 @@
 # browserstack-select
 
-Filters BrowserStack flat map of browser configs from REST API and outputs a JSON array fit to be used with browserstack.json config for browserstack-runner.
+Filters BrowserStack Automate flat map of browser configurations (as from their REST API) and outputs a JSON array fit to be used with `browserstack.json` config for [browserstack-runner](https://github.com/browserstack/browserstack-runner).
 
 ## Usage
 
