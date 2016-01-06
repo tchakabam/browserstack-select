@@ -1,2 +1,12 @@
 # browserstack-select
-Filters BrowserStack config flat hash and outputs a JSON array fit to be used with runner config
+
+Filters BrowserStack flat map of browser configs from REST API and outputs a JSON array fit to be used with browserstack.json config for browserstack-runner.
+
+Usage: `node browserstack-select <os> <os_version> <browser> <browser_version> <device>`
+(put `any` where you want all possibilies)
+
+Expects a file `browserstack.options.json` containing source data in working directory.
+
+Source data can be retrieved from BrowserStack API with a command like 
+
+`curl -u "USERNAME:PASSWORD" https://www.browserstack.com/automate/browsers.json > browserstack.options.json`
