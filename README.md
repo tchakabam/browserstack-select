@@ -7,7 +7,7 @@ Usage: `node browserstack-select <os> <os_version> <browser> <browser_version> <
 
 **Expects a file `browserstack.options.json` containing source data in working directory.**
 
-Source data can be retrieved from BrowserStack API with a command like 
+Source data can be retrieved from BrowserStack API with a command like:
 
 `curl -u "USERNAME:PASSWORD" https://www.browserstack.com/automate/browsers.json > browserstack.options.json`
 
