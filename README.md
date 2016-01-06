@@ -11,7 +11,7 @@ Source data can be retrieved from BrowserStack API with a command like:
 
 `curl -u "USERNAME:PASSWORD" https://www.browserstack.com/automate/browsers.json > browserstack.options.json`
 
-## EXAMPLE
+## Example
 
 We want a config for Chrome 47.0 on all Windows versions.
 
