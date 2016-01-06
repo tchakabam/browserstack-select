@@ -4,7 +4,9 @@ Filters BrowserStack flat map of browser configs from REST API and outputs a JSO
 
 ## Usage
 
-`node browserstack-select <os> <os_version> <browser> <browser_version> <device>`
+`npm install -g browserstack-select`
+
+`browserstack-select <os> <os_version> <browser> <browser_version> <device>`
 
 Put `any` where you want all possibilies.
 
