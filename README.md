@@ -5,7 +5,7 @@ Filters BrowserStack flat map of browser configs from REST API and outputs a JSO
 Usage: `node browserstack-select <os> <os_version> <browser> <browser_version> <device>`
 (put `any` where you want all possibilies)
 
-Expects a file `browserstack.options.json` containing source data in working directory.
+**Expects a file `browserstack.options.json` containing source data in working directory.**
 
 Source data can be retrieved from BrowserStack API with a command like 
 
