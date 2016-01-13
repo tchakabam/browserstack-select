@@ -1,6 +1,6 @@
 {
   "name": "browserstack-select",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Filters BrowserStack config flat hash and outputs a JSON array fit to be used with runner config.",
   "main": "browserstack-select.js",
   "bin": {"browserstack-select": "./browserstack-select.js"},
