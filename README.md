@@ -1,10 +1,12 @@
 # browserstack-select
 
-Filters BrowserStack flat map of browser configs from REST API and outputs a JSON array fit to be used with browserstack.json config for browserstack-runner.
+Filters BrowserStack Automate flat map of browser configurations (as from their REST API) and outputs a JSON array fit to be used with `browserstack.json` config for [browserstack-runner](https://github.com/browserstack/browserstack-runner).
 
 ## Usage
 
-`node browserstack-select <os> <os_version> <browser> <browser_version> <device>`
+`npm install -g browserstack-select`
+
+`browserstack-select <os> <os_version> <browser> <browser_version> <device>`
 
 Put `any` where you want all possibilies.
 
@@ -23,6 +25,11 @@ You can add up several configuration sets. One set consisting of: `<os> <os_vers
 Source data can be retrieved from BrowserStack API with a command like:
 
 `curl -u "USERNAME:PASSWORD" https://www.browserstack.com/automate/browsers.json > browserstack.options.json`
+
+## Wishlist
+  
+  * Get source data directly from BrowserStack REST API (take credentials as input)
+  * Directly write output into browserstack.json `browsers` field
 
 ## Example
 
