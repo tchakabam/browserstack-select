@@ -25,6 +25,14 @@ function getArgsOffset() {
   return (args.length + 1) / (CARDINALITY + 1);
 }
 
+var countMode = false;
+var count = 0;
+
+if (args[0] === '--count') {
+  countMode = true;
+  args.shift();
+}
+
 if (!validArgsLength()) {
   console.error('Invalid arguments length: %d\n\n', args.length);
   printUsage();
@@ -69,10 +77,16 @@ while(offset-- > 0) {
       && checkArg('os', 0)
       ) {
       output.push(item);
+
+      count++;
     }
 
   });
-
 }
 
-console.log(output);
+if (countMode) {
+  console.log(count);
+  process.exit();
+}
+
+console.log(JSON.stringify(output));
