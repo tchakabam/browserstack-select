@@ -10,21 +10,21 @@ Filters BrowserStack Automate flat map of browser configurations (as from their 
 
 Put `any` where you want all possibilies.
 
-**Trim spaces for all values that have spaces!**
+**How do we deal with multi-word names? Trim spaces for all values that have spaces!**
 
 For example `OS X` -> `OSX`, `Mountain Lion` -> `MountainLion`, `Motorolla Razor` -> `MotorollaRazor` etc ...
 
-***We expecte a file `browserstack.options.json` containing config source data in the working directory. It's up to you to put that there when it will be needed.***
+***We expect a file `browserstack.options.json` containing config source data in the working directory. It's up to you to put that there when it will be needed.***
 
-**Adding up configurations**
+**Source data can be retrieved from BrowserStack API with a command like:**
+
+`curl -u "USERNAME:PASSWORD" https://www.browserstack.com/automate/browsers.json > browserstack.options.json`
+
+**Adding up configurations:**
 
 You can add up several configuration sets. One set consisting of: `<os> <os_version> <browser> <browser_version> <device>`, further abreviated as `<set>`:
 
 `browserstack-select <set> + <set> + ...` will add up results of each set selected.
-
-Source data can be retrieved from BrowserStack API with a command like:
-
-`curl -u "USERNAME:PASSWORD" https://www.browserstack.com/automate/browsers.json > browserstack.options.json`
 
 ## Example
 
