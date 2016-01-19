@@ -59,7 +59,7 @@ $ browserstack-select Windows any chrome 47.0 any
     browser: 'chrome' } ]
   ```
 
-  ## Example: adding up several sets
+## Example: adding up several sets
 
   ```
   $ browserstack-select Windows 8 chrome 47.0 any + OSX MountainLion chrome 47.0 any
