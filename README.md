@@ -14,7 +14,7 @@ Put `any` where you want all possibilies.
 
 For example `OS X` -> `OSX`, `Mountain Lion` -> `MountainLion`, `Motorolla Razor` -> `MotorollaRazor` etc ...
 
-**Expects a file `browserstack.options.json` containing source data in working directory.**
+***We expecte a file `browserstack.options.json` containing config source data in the working directory. It's up to you to put that there when it will be needed.***
 
 **Adding up configurations**
 
