@@ -22,7 +22,7 @@ For example `OS X` -> `OSX`, `Mountain Lion` -> `MountainLion`, `Motorolla Razor
 
 **Adding up configurations:**
 
-You can add up several configuration sets. One set consisting of: `<os> <os_version> <browser> <browser_version> <device>`, further abreviated as `<set>`:
+You can add up several configuration sets. One set consisting of: `<os> <os_version> <browser> <browser_version> <device>`, further abbreviated as `<set>`:
 
 `browserstack-select <set> + <set> + ...` will add up results of each set selected.
 
